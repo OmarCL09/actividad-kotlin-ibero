@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "944670028524",
+    "project_id": "makefs-iberoamericana",
+    "storage_bucket": "makefs-iberoamericana.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944670028524:android:46d7d9d4c3b665ad262bc9",
+        "android_client_info": {
+          "package_name": "com.example.makefsiberoamericana"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfn--1B_hX9z0Xcn2VXF83dXyP8QXrEYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

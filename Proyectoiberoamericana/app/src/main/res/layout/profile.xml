@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0000"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/profile_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tu perfil"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo electrónico"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/profile_title"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:background="@android:color/transparent"
+        android:drawableBottom="?android:attr/editTextBackground"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/user_email"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="-16dp"
+        android:layout_marginEnd="32dp"
+        android:background="@android:color/white" />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/user_email"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:background="@android:color/transparent"
+        android:drawableBottom="?android:attr/editTextBackground"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/user_name"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="-16dp"
+        android:layout_marginEnd="32dp"
+        android:background="@android:color/white" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:textSize="18sp"
+        android:textColor="#FF0000"
+        android:backgroundTint="@android:color/white"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_below="@id/user_name"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:id="@+id/backpage_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:textSize="18sp"
+        android:textColor="#FF0000"
+        android:backgroundTint="@android:color/white"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_below="@id/save_button"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
